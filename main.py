@@ -24,9 +24,9 @@ BLACK = (0, 0, 0)
 DARK_RED = (139, 0, 0)  # Dark red for the Fatality effect
 
 # Load images
-background_image_path = r"C:\Users\balli\Desktop\PYGAME\image\characters\bg.png"  # Update to your actual path
-player_image_path = r"C:\Users\balli\Desktop\PYGAME\image\yato.png"  # Update to your actual player image path
-enemy_image_path = r"C:\Users\balli\Desktop\PYGAME\fuckibgfucksadassads\wawa.jpg"  # Update this path
+background_image_path = r"C:\Users\ASUS-Pc\Documents\LSPU Files\2nd Year\1st Sem\CMSC 203\PYGAME\PYGAME\image\characters\bg.png"  # Update to your actual path
+player_image_path = r"C:\Users\ASUS-Pc\Documents\LSPU Files\2nd Year\1st Sem\CMSC 203\PYGAME\PYGAME\image\yato.png"  # Update to your actual player image path
+enemy_image_path = r"C:\Users\ASUS-Pc\Documents\LSPU Files\2nd Year\1st Sem\CMSC 203\PYGAME\PYGAME\fuckibgfucksadassads\wawa.jpg"  # Update this path
 
 # Load and scale background image
 background_image = pygame.image.load(background_image_path)
@@ -37,13 +37,13 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Top Down Game")
 
 # Load custom font
-custom_font_path = r"C:\Users\balli\Desktop\PYGAME\font\mkmyth.ttf"  # Path to the custom font file
+custom_font_path = r"C:\Users\ASUS-Pc\Documents\LSPU Files\2nd Year\1st Sem\CMSC 203\PYGAME\PYGAME\font\mkmyth.ttf"  # Path to the custom font file
 font = pygame.font.Font(custom_font_path, 150)  # Larger font for "Game Over"
 score_font = pygame.font.Font(custom_font_path, 36)  # Font for the score
 continue_font = pygame.font.Font(custom_font_path, 30)  # Smaller font for the continue prompt
 
 # Load the "Fatality" sound effect
-fatality_sound_path = r"C:\Users\balli\Desktop\PYGAME\sound\fatality.wav"
+fatality_sound_path = r"C:\Users\ASUS-Pc\Documents\LSPU Files\2nd Year\1st Sem\CMSC 203\PYGAME\PYGAME\sound\fatality.wav"
 fatality_sound = pygame.mixer.Sound(fatality_sound_path)
 
 # Adjust sound volume if needed
